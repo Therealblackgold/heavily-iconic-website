@@ -1,0 +1,14 @@
+## virtual environment
+$ conda activate depoEnv
+
+## customzie Django admin / using Django admin interface
+$ pip install django-admin-interface 
+
+## setting up gmial
+1) manage account
+2) security
+3) set up 2 step verification
+4) then back 
+5) find app passwords
+6) generate password and copy eg. psfkvtvynymcjgzy
+

@@ -1,0 +1,1099 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Heavily Iconic</title>
+    <meta content="" name="descriptison" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="{% static 'img/favicon-32x32.png'%}" rel="icon" />
+    <link
+      href="{% static 'img/apple-touch-icon.png'%}"
+      rel="apple-touch-icon"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}"
+      rel="stylesheet"
+    />
+    <link
+      href="{% static 'vendor/icofont/icofont.min.css'  %}"
+      rel="stylesheet"
+    />
+    <link
+      href="{% static 'vendor/boxicons/css/boxicons.min.css' %}"
+      rel="stylesheet"
+    />
+    <link
+      href="{% static 'vendor/remixicon/remixicon.css' %}"
+      rel="stylesheet"
+    />
+    <link href="{% static 'vendor/venobox/venobox.css' %}" rel="stylesheet" />
+    <link
+      href="{% static 'vendor/owl.carousel/assets/owl.carousel.min.css' %}"
+      rel="stylesheet"
+    />
+    <link href="{% static 'vendor/aos/aos.css' %}" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="{% static 'css/style.css' %}" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template Name: Bethany - v2.1.0
+  * Template URL: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+  {% block content %}
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center">
+      <div class="container">
+        <div class="header-container d-flex align-items-center">
+          <div class="logo mr-auto">
+            <h1 class="text-light">
+              <a href="index.html"><span>Heavily Iconic</span></a>
+            </h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+          </div>
+
+          <nav class="nav-menu d-none d-lg-block">
+            <ul>
+              <li class="active"><a href="#header">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services/Prices</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#team">Team</a></li>
+              <li><a href="{% url 'contact' %}">Contact</a></li>
+
+              <li class="get-started">
+                <a href="{% url 'contact' %}">Get Started</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- .nav-menu -->
+        </div>
+        <!-- End Header Container -->
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center">
+      <div
+        class="container text-center position-relative"
+        data-aos="fade-in"
+        data-aos-delay="200"
+      >
+        <h1>We are committed to superior quality and best results.</h1>
+        <h2>
+          We provide professional bulk petroleum products, diesels, gas,
+          unleaded 95 and paraffin deliveries in Africa
+        </h2>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+      <!-- ======= Clients Section ======= -->
+      <section id="clients" class="clients">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-lg-2 col-md-4 col-6 d-flex align-items-center"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <h3 class="stylingtext mt-2 mb-2">INTEGRITY</h3>
+            </div>
+
+            <div
+              class="col-lg-2 col-md-4 col-6 d-flex align-items-center"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              <h3 class="stylingtext mt-2 mb-2">LEARDERSHIP</h3>
+            </div>
+
+            <div
+              class="col-lg-2 col-md-4 col-6 d-flex align-items-center"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <h3 class="stylingtext mt-2 mb-2">QUALITY</h3>
+            </div>
+
+            <div
+              class="col-lg-2 col-md-4 col-6 d-flex align-items-center"
+              data-aos="zoom-in"
+              data-aos-delay="400"
+            >
+              <h3 class="stylingtext mt-2 mb-2">TEAMWORK</h3>
+            </div>
+
+            <div
+              class="col-lg-2 col-md-4 col-6 d-flex align-items-center"
+              data-aos="zoom-in"
+              data-aos-delay="500"
+            >
+              <h3 class="stylingtext mt-2 mb-2">GROWTH</h3>
+            </div>
+
+            <div
+              class="col-lg-2 col-md-4 col-6 d-flex align-items-center"
+              data-aos="zoom-in"
+              data-aos-delay="600"
+            >
+              <h3 class="stylingtext mt-2 mb-2">PROFITABITY</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Clients Section -->
+
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="row content">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+              <h2>WHO ARE WE</h2>
+              <p>
+                Heavily Iconic Investments is a 100% black empowered company.
+                The primary focus of Heavily Iconic Investments is in the
+                distribution of petroleum products, diesels, gas, unleaded 95
+                and paraffin.
+              </p>
+              <p>
+                Heavily Iconic Investments was established in 2019, with vest
+                experience of distributing petroleum products, the directors saw
+                a need to start Heavily Iconic Investments to expand the
+                business further into a wholesale company. Heavily Iconic
+                Investments is BEE Level 1.
+              </p>
+              <p>
+                We are committed to the development and expansion of the fuel
+                distribution industry in South Africa, particularly where this
+                will benefit smaller players.
+              </p>
+              <p>
+                To achieve this, we are committed making investments developing
+                storage and transport infrastructure because the existing
+                infrastructure is generally not accessible to the emerging
+                players. In this regard, we are very keen to enter into
+                collaborative arrangements with independent players in the arena
+                in order to meet our respective objectives.
+              </p>
+            </div>
+            <div
+              class="col-lg-6 pt-4 pt-lg-0"
+              data-aos="fade-left"
+              data-aos-delay="200"
+            >
+              <h3>Mission</h3>
+              <ul>
+                <li>
+                  <i class="ri-check-double-line"></i> To house and provide /
+                  distribute the best petroleum products with energy to strive
+                  for improvement in and around South Africa.
+                </li>
+              </ul>
+              <h3>Vision</h3>
+              <ul>
+                <li>
+                  <i class="ri-check-double-line"></i> To have Heavily Iconic
+                  Investments as a leader among petroleum wholesale companies in
+                  the South African region demonstrating a high level of social
+                  and ecological responsibility and providing its clients with
+                  up-to-date services.
+                </li>
+              </ul>
+              <h3>Future Growth</h3>
+              <ul>
+                <li>
+                  <i class="ri-check-double-line"></i> It leans on the vision of
+                  Nelson Mandela “Our long-term structural development depends
+                  on all of Southern Africa achieving ‘positive growth’ and on
+                  building economic ties and development co-operation amongst
+                  ourselves.”
+                </li>
+              </ul>
+              <h3 class="font-italic">WHOLESALE LICENSE</h3>
+              <p class="font-italic">VALOTONE 138 W/2012/0069</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About Section -->
+
+      <!-- ======= Counts Section ======= -->
+      <section id="counts" class="counts">
+        <div class="container">
+          <div class="row counters">
+            <div class="col-lg-3 col-6 text-center">
+              <span data-toggle="counter-up">232</span>
+              <p>Clients</p>
+            </div>
+
+            <div class="col-lg-3 col-6 text-center">
+              <span data-toggle="counter-up">521</span>
+              <p>Projects</p>
+            </div>
+
+            <div class="col-lg-3 col-6 text-center">
+              <span data-toggle="counter-up">1,463</span>
+              <p>Hours Of Support</p>
+            </div>
+
+            <div class="col-lg-3 col-6 text-center">
+              <span data-toggle="counter-up">15</span>
+              <p>Hard Workers</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Counts Section -->
+
+      <!-- ======= Why Us Section ======= -->
+      <section id="why-us" class="why-us">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-lg-4 d-flex align-items-stretch"
+              data-aos="fade-right"
+            >
+              <div class="content">
+                <h3>INDEPENDENT DISTRIBUTOR</h3>
+                <p>
+                  Heavily Iconic Investments is a growing, independent
+                  distributor, which has the flexibility and nimbleness to
+                  provide our customers with excellent service under any
+                  circumstances.
+                </p>
+                <p>
+                  We interface with our customers through dedicated personnel.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-8 d-flex align-items-stretch">
+              <div class="icon-boxes d-flex flex-column justify-content-center">
+                <div class="row">
+                  <div
+                    class="col-xl-4 d-flex align-items-stretch"
+                    data-aos="zoom-in"
+                    data-aos-delay="100"
+                  >
+                    <div class="icon-box mt-4 mt-xl-0">
+                      <i class="bx bx-receipt"></i>
+                      <h4>EFFICIENT LOGISTICS</h4>
+                      <p>
+                        We can solve logistics challenges rapidly, to counter
+                        customer problems like fuel supply running dry or
+                        tankers being waylaid, by offering immediate fuel
+                        management solutions for our customers.
+                      </p>
+                      <p>
+                        Our available and engaged team assists our customers in
+                        understanding and acting on the results.
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="col-xl-4 d-flex align-items-stretch"
+                    data-aos="zoom-in"
+                    data-aos-delay="200"
+                  >
+                    <div class="icon-box mt-4 mt-xl-0">
+                      <i class="bx bx-cube-alt"></i>
+                      <h4>SKILLS DEVELOPMENT</h4>
+                      <p>
+                        Development of competence of employees Encourages
+                        companies to develop talent of people through the
+                        development spend on learning programs, learnerships and
+                        work placement.
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="col-xl-4 d-flex align-items-stretch"
+                    data-aos="zoom-in"
+                    data-aos-delay="300"
+                  >
+                    <div class="icon-box mt-4 mt-xl-0">
+                      <i class="bx bx-images"></i>
+                      <h4>ENTERPRISE DEVELOPMENT</h4>
+                      <p>
+                        Assist and accelerate the development and sustainability
+                        of other enterprises. Encourages development or
+                        expansion of small, medium enterprises particularly
+                        along the value chain.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End .content-->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Why Us Section -->
+
+      <!-- ======= Cta Section ======= -->
+      <section id="cta" class="cta">
+        <div class="container">
+          <div class="text-center" data-aos="zoom-in">
+            <h3>SOCIO-ECONOMIC DEVELOPMENT</h3>
+            <p>
+              Promote access to the economy for people Encourages initiatives
+              intended to directly provide black people with the means of
+              generating income for themselves.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- End Cta Section -->
+
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="services section-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="section-title" data-aos="fade-right">
+                <h2>Services</h2>
+                <h3>Heavily Iconic services and Products</h3>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="row">
+                <div class="col-md-6 d-flex align-items-stretch">
+                  <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                    <h4><a href="">Petroleum Products Available</a></h4>
+                    <p>Diesel 50PPM</p>
+                    <p>Bulk Fuel</p>
+                    <p>Burner Fuel</p>
+                    <p>LP Gas</p>
+                    <p>Illuminated Paraffin</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+                  <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="icon"><i class="bx bx-file"></i></div>
+                    <h4><a href="">On-site Fuel tank installation</a></h4>
+                    <p>Fuel tanks from (2000L to 23 000L)</p>
+                    <p>Flow Bin</p>
+                    <p>Bowser</p>
+                    <p>JoJo fuel tanks</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-flex align-items-stretch mt-4">
+                  <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="icon"><i class="bx bx-tachometer"></i></div>
+                    <h4><a href="">REFUELLING / Truck Parking </a></h4>
+                    <p>Secure overnight parking</p>
+                    <p>Diesel deport onsite</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-flex align-items-stretch mt-4">
+                  <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="icon"><i class="bx bx-world"></i></div>
+                    <h4><a href="">Diesel Deport / Truck Shop</a></h4>
+                    <p>Secure overnight parking</p>
+                    <p>Diesel deport onsite</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--Pricing table-->
+            <section
+              id="pricing"
+              class="padd-section text-center wow fadeInUp"
+              style="visibility: visible; animation-name: fadeInUp"
+            >
+              <div class="container">
+                <div class="section-title text-center">
+                  <h2>Our Pricing</h2>
+                  <p class="separator">
+                    Fuel prices subjected to monthly changes
+                  </p>
+                  <p class="separator">Detailed pricing of our products.</p>
+                </div>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <!-- Service -->
+                  {% for service in service %}
+                  <div class="col-md-6 col-lg-4">
+                    <div class="block-pricing">
+                      <div class="table">
+                        <div class="price_container">
+                          <h3>{{ service.title }}</h3>
+                        </div>
+                        <ul class="list-unstyled">
+                          <li>
+                            <b>{{ service.description_1 }}</b>
+                            <p>R {{ service.price_1 }} Per Liter</p>
+                          </li>
+                          <li>
+                            <b>{{ service.description_2 }}</b>
+                            <p>R {{ service.price_2 }} Per Liter</p>
+                          </li>
+                          <li>
+                            <b>{{ service.description_3 }}</b>
+                            <p>R {{ service.price_3 }} Per Liter</p>
+                          </li>
+                          {% if service.price_4 %}
+                          <li>
+                            <b>{{ service.description_4 }}</b>
+                            <p>R {{ service.price_4 }} Per Liter</p>
+                          </li>
+                          {% endif %}
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  {% endfor %}
+                </div>
+              </div>
+            </section>
+
+            <!--end of price table-->
+          </div>
+        </div>
+      </section>
+      <!-- End Services Section -->
+
+      <!-- ======= Portfolio Section ======= -->
+      <section id="portfolio" class="portfolio">
+        <div class="container">
+          <div class="section-title" data-aos="fade-left">
+            <h2>Portfolio</h2>
+            <p>
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
+
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">All</li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="row portfolio-container"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="{% static 'img/companypictures/sitepicture03.jpg' %}"
+                  class="img-fluid"
+                  alt="bulk diesel suppliers"
+                />
+                <div class="portfolio-info">
+                  <div class="portfolio-links">
+                    <a
+                      href="{% static 'img/companypictures/sitepicture03.jpg' %}"
+                      data-gall="portfolioGallery"
+                      class="venobox"
+                      title="App 1"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="{% static 'img/companypictures/patrol-02.jpg' %}"
+                  class="img-fluid"
+                  alt="bulk diesel suppliers"
+                />
+                <div class="portfolio-info">
+                  <div class="portfolio-links">
+                    <a
+                      href="{% static 'img/companypictures/patrol-02.jpg' %}"
+                      data-gall="portfolioGallery"
+                      class="venobox"
+                      title="Web 3"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="{% static 'img/companypictures/patrol-3.jpg' %}"
+                  class="img-fluid"
+                  alt="bulk diesel suppliers"
+                />
+                <div class="portfolio-info">
+                  <div class="portfolio-links">
+                    <a
+                      href="{%  static 'img/companypictures/patrol-3.jpg' %}"
+                      data-gall="portfolioGallery"
+                      class="venobox"
+                      title="App 2"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img
+                  src="{% static 'img/companypictures/IMG-20201123-WA0010.jpg' %}"
+                  class="img-fluid"
+                  alt="bulk diesel suppliers"
+                />
+                <div class="portfolio-info">
+                  <div class="portfolio-links">
+                    <a
+                      href="{% static 'img/companypictures/IMG-20201123-WA0010.jpg' %}"
+                      data-gall="portfolioGallery"
+                      class="venobox"
+                      title="Card 2"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="{% static 'img/companypictures/IMG-20201123-WA0012.jpg' %}"
+                  class="img-fluid"
+                  alt="bulk diesel suppliers"
+                />
+                <div class="portfolio-info">
+                  <div class="portfolio-links">
+                    <a
+                      href="{% static 'img/companypictures/IMG-20201123-WA0012.jpg' %}"
+                      data-gall="portfolioGallery"
+                      class="venobox"
+                      title="Web 2"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="{% static 'img/companypictures/sitepicture05.jpg' %}"
+                  class="img-fluid"
+                  alt="bulk diesel suppliers"
+                />
+                <div class="portfolio-info">
+                  <div class="portfolio-links">
+                    <a
+                      href="{%  static 'img/companypictures/sitepicture05.jpg' %}"
+                      data-gall="portfolioGallery"
+                      class="venobox"
+                      title="App 3"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img
+                  src="{% static 'img/companypictures/IMG-20201123-WA0015.jpg' %}"
+                  class="img-fluid"
+                  alt="bulk diesel suppliers"
+                />
+                <div class="portfolio-info">
+                  <div class="portfolio-links">
+                    <a
+                      href="{% static 'img/companypictures/IMG-20201123-WA0015.jpg' %}"
+                      data-gall="portfolioGallery"
+                      class="venobox"
+                      title="Card 1"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img
+                  src="{% static 'img/companypictures/brakpan-patrol01.jpg' %}"
+                  class="img-fluid"
+                  alt="bulk diesel suppliers"
+                />
+                <div class="portfolio-info">
+                  <div class="portfolio-links">
+                    <a
+                      href="{% static 'img/companypictures/brakpan-patrol01.jpg' %}"
+                      data-gall="portfolioGallery"
+                      class="venobox"
+                      title="Card 3"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="{% static 'img/companypictures/sitepicture07.jpg' %}"
+                  class="img-fluid"
+                  alt="bulk diesel suppliers"
+                />
+                <div class="portfolio-info">
+                  <div class="portfolio-links">
+                    <a
+                      href="{% static 'img/companypictures/sitepicture07.jpg' %}"
+                      data-gall="portfolioGallery"
+                      class="venobox"
+                      title="Web 3"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Portfolio Section -->
+
+      <!-- ======= Testimonials Section ======= -->
+      <section id="testimonials" class="testimonials section-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="section-title" data-aos="fade-right">
+                <h2>Testimonials</h2>
+              </div>
+            </div>
+            <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
+              <div class="owl-carousel testimonials-carousel">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    From day one working with heavily iconic was a blessing,
+                    they treated me as part of they family.All my deliveries
+                    were made on time no missed due dates. Thank you guys
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="{% static 'img/companypictures/newperson.jpg' %}"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Saul</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                </div>
+
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Keep up the good work guys
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="{% static 'img/companypictures/newperson.jpg' %}"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Sara Wilsson</h3>
+                </div>
+
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Tank installation for our funeral Parlour business was the
+                    best idea to come from the heavily iconic team,look forward
+                    to the future deliveries.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="{% static 'img/companypictures/newperson.jpg' %}"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Nathi</h3>
+                  <h4>Christian Funeral Parlour</h4>
+                </div>
+
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Moving to Heavily Iconic for our bulk diesel deliveries to
+                    our various sites was the best decision we made,our
+                    Operation mangers have been happy with the service.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="{% static 'img/companypictures/newperson.jpg' %}"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Matt</h3>
+                </div>
+
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Thank you Heavily Iconic for the outstanding customer
+                    service that you continue to provide.We will contunie to use
+                    Heavily Iconic for our future business
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="{% static 'img/companypictures/newperson.jpg' %}"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>John</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Testimonials Section -->
+
+      <!-- ======= Team Section ======= -->
+      <section id="team" class="team">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="section-title" data-aos="fade-right">
+                <h2>Team</h2>
+                <p>
+                  HEAVILY ICONIC is a family owned company by 3 sisters and a
+                  brother.Together they strive to bring the best relationship
+                  with they customers.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="pic">
+                      <img
+                        src="{% static 'img/team/team.png' %}"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <div class="member-info">
+                      <h4>Kamohelo Sotluko</h4>
+                      <span>Chief Executive Officer</span>
+                      <p>
+                        Explicabo voluptatem mollitia et repellat qui dolorum
+                        quasi
+                      </p>
+                      <div class="social">
+                        <a href=""><i class="ri-twitter-fill"></i></a>
+                        <a href=""><i class="ri-facebook-fill"></i></a>
+                        <a href=""><i class="ri-instagram-fill"></i></a>
+                        <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                  <div class="member" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="pic">
+                      <img
+                        src="{% static 'img/team/team.png' %}"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <div class="member-info">
+                      <h4>Palesa Ncholo</h4>
+                      <span>Product Manager</span>
+                      <p>
+                        Aut maiores voluptates amet et quis praesentium qui
+                        senda para
+                      </p>
+                      <div class="social">
+                        <a href=""><i class="ri-twitter-fill"></i></a>
+                        <a href=""><i class="ri-facebook-fill"></i></a>
+                        <a href=""><i class="ri-instagram-fill"></i></a>
+                        <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6 mt-4">
+                  <div class="member" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="pic">
+                      <img
+                        src="{% static 'img/team/team.png' %}"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <div class="member-info">
+                      <h4>Dineo Ncholo</h4>
+                      <span>CTO</span>
+                      <p>
+                        Quisquam facilis cum velit laborum corrupti fuga rerum
+                        quia
+                      </p>
+                      <div class="social">
+                        <a href=""><i class="ri-twitter-fill"></i></a>
+                        <a href=""><i class="ri-facebook-fill"></i></a>
+                        <a href=""><i class="ri-instagram-fill"></i></a>
+                        <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6 mt-4">
+                  <div class="member" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="pic">
+                      <img
+                        src="{% static 'img/team/team.png' %}"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <div class="member-info">
+                      <h4>Dirontsho Ncholo</h4>
+                      <span>Accountant</span>
+                      <p>
+                        Dolorum tempora officiis odit laborum officiis et et
+                        accusamus
+                      </p>
+                      <div class="social">
+                        <a href=""><i class="ri-twitter-fill"></i></a>
+                        <a href=""><i class="ri-facebook-fill"></i></a>
+                        <a href=""><i class="ri-instagram-fill"></i></a>
+                        <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Team Section -->
+
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4" data-aos="fade-right">
+              <div class="section-title">
+                <h2>Contact</h2>
+                <h4>Contact Persons:</h4>
+                <div class="spacer"></div>
+                <h6>Kamohelo Sotluko</h6>
+                <h6>067 247 9832</h6>
+                <h6>kamohelosotluko@gmail.com</h6>
+                <div class="spacer"></div>
+                <h6>Palesa Ncholo</h6>
+                <h6>073 214 1711</h6>
+                <h6>heavilyiconic101@gmail.com</h6>
+              </div>
+            </div>
+
+            <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
+              <iframe
+                style="border: 0; width: 100%; height: 270px"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3577.7111367039083!2d28.366901915924636!3d-26.271036973075965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9523bd5b970897%3A0x31d785de73e9e883!2s22%20Fish%20St%2C%20Sallies%20Village%2C%20Brakpan%2C%201541!5e0!3m2!1sen!2sza!4v1606216929068!5m2!1sen!2sza"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+              <div class="info mt-4">
+                <i class="icofont-google-map"></i>
+                <h4>Location:</h4>
+                <p>22 Fish Street, Sallies Village, Brakpan, 1541</p>
+              </div>
+              <div class="row">
+                <div class="col-lg-6 mt-4">
+                  <div class="info">
+                    <i class="icofont-envelope"></i>
+                    <a href="{% url 'contact' %}"
+                      ><h4>Email</h4>
+                      <p>067 247 9832</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="info w-100 mt-4">
+                    <i class="icofont-phone"></i>
+                    <a href="tel:+27672479832">
+                      <h4>Call:</h4>
+                      <p>067 247 9832</p></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h3>Heavily Iconic</h3>
+              <p>
+                22 Fish Street <br />
+                Sallies Village<br />
+                Brakpan, 1541<br /><br />
+                <strong>Phone:</strong> 067 247 9832<br />
+                <strong>Email:</strong> heavilyiconic@gmail.com<br />
+              </p>
+            </div>
+
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Home</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">About us</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Services</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Petroleum Products</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Tank installation</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Refuelling</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Diesel Depot / Truck shop</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- <div class="col-lg-4 col-md-6 footer-newsletter">
+              <h4>Join Our Newsletter</h4>
+              <form action="" method="post">
+                <input type="email" name="email" /><input
+                  type="submit"
+                  value="Subscribe"
+                />
+              </form>
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="container d-md-flex py-4">
+        <div class="mr-md-auto text-center text-md-left">
+          <div class="copyright">
+            &copy; Copyright <strong><span>Heavily Iconic</span></strong
+            >. All Rights Reserved
+          </div>
+          <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/ -->
+            Designed by
+            <a
+              href="https://sidekickscode.pythonanywhere.com/
+"
+              target="_blank"
+              >SideKicks SA</a
+            >
+          </div>
+        </div>
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'vendor/jquery.easing/jquery.easing.min.js' %}"></script>
+    <script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+    <script src="{% static 'vendor/waypoints/jquery.waypoints.min.js' %}"></script>
+    <script src="{% static 'vendor/counterup/counterup.min.js' %}"></script>
+    <script src="{% static 'vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+    <script src="{% static 'vendor/venobox/venobox.min.js' %}"></script>
+    <script src="{% static 'vendor/owl.carousel/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'vendor/aos/aos.js' %}"></script>
+
+    <!-- Template Main JS File -->
+    <script src="{% static 'js/main.js' %}"></script>
+  </body>
+  {% endblock %}
+</html>

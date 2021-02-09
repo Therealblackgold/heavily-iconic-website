@@ -1,0 +1,136 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+
+<!-- contact #a67c00  #a67c00 -->
+
+<!-- ***** Contact Area Start ***** -->
+<style>
+  .contact-form {
+    position: relative;
+    z-index: 1;
+  }
+  .contact-form .form-control {
+    width: 100%;
+    height: 46px;
+    padding: 0 15px;
+    font-size: 13px;
+    font-style: italic;
+  }
+  .contact-form .form-control:focus {
+    box-shadow: none;
+    border-color: #a67c00;
+  }
+  .contact-form textarea.form-control {
+    height: 110px;
+    padding: 15px;
+  }
+</style>
+{% if message_name %}
+<center>
+  <div class="alert alert-dark" role="alert">
+    Thank you <b>{{ message_name }}</b>, your email has been recieved and we'll
+    contact you shortly
+    <a href="{% url 'home' %}" class="alert-link">Click here</a> return to
+    website.
+  </div>
+  <br /><br />
+</center>
+{% endif %}
+
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4" data-aos="fade-right">
+        <div class="section-title">
+          <h2>Contact</h2>
+          <h4>Contact Persons:</h4>
+          <div class="spacer"></div>
+          <h6>Kamohelo Sotluko</h6>
+          <a href="tell:067 247 9832" target="_blank"> <h6>067 247 9832</h6></a>
+          <a href="mailto:kamohelosotluko@gmail.com" target="_blank">
+            <h6>kamohelosotluko@gmail.com</h6></a
+          >
+          <div class="spacer"></div>
+          <h6>Palesa Ncholo</h6>
+          <a href="tell:073 214 1711 " target="_blank">
+            <h6>073 214 1711</h6></a
+          >
+          <a href="mailto:heavilyiconic101@gmail.com" target="_blank">
+            <h6>heavilyiconic101@gmail.com</h6></a
+          >
+        </div>
+      </div>
+
+      <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
+        <iframe
+          style="border: 0; width: 100%; height: 270px"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3577.7111367039083!2d28.366901915924636!3d-26.271036973075965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9523bd5b970897%3A0x31d785de73e9e883!2s22%20Fish%20St%2C%20Sallies%20Village%2C%20Brakpan%2C%201541!5e0!3m2!1sen!2sza!4v1606216929068!5m2!1sen!2sza"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+        <div class="info mt-4">
+          <i class="icofont-google-map"></i>
+          <h4>Location:</h4>
+          <p>22 Fish Street, Sallies Village, Brakpan, 1541</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 mt-4">
+            <div class="info">
+              <i class="icofont-envelope"></i>
+              <h4>Email:</h4>
+              <a href="mailto:heavilyiconic@gmail.com"
+                ><p>heavilyiconic@gmail.com</p></a
+              >
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="info w-100 mt-4">
+              <i class="icofont-phone"></i>
+              <h4>Call:</h4>
+              <a href="tell:067 247 9832"> <p>067 247 9832</p></a>
+            </div>
+          </div>
+        </div>
+        <!-- Form -->
+        <form
+          action="{% url 'contact' %}"
+          method="post"
+          class="iconic-email-form mt-4"
+        >
+          {% csrf_token %}
+          <div class="row">
+            <div class="col-lg-6">
+              <input
+                type="text"
+                name="message-name"
+                class="form-control mb-30"
+                placeholder="Your Name"
+              />
+            </div>
+            <div class="col-lg-6">
+              <input
+                type="email"
+                name="message-email"
+                class="form-control mb-30"
+                placeholder="Your Email"
+              />
+            </div>
+            <div class="col-12">
+              <textarea
+                name="message"
+                class="form-control mb-30"
+                placeholder="Your Message"
+              ></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="text-center">Send Message</button>
+            </div>
+          </div>
+        </form>
+        <!-- form -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Contact Section -->
+{% endblock %}
